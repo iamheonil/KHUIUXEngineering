@@ -7,11 +7,10 @@ public class Source {
 		// 학생의 나이를 저장하는 변수를 선언 -> 대입 -> 출력 순
 		int studentAge;
 		studentAge = 26;
-		System.out.println(studentAge);
-			
+		System.out.println(studentAge);		
+		
 	}
 }
-
 
 
 // 명명 규칙 (Naming 규약)
@@ -31,5 +30,14 @@ public class Source {
 // 의미없는 변수명 짓지말기 int a, b, c; 같은거 사용 X
 // 금지는 아니지만 지양해야 한다.
 // 자바에서 유니코드를 지원해서 한글로 변수명 선언과 사용이 가능하지만 절대로 사용하지 말 것.
+
+// 오늘의 단어
+// 상수 Constant Number
+// 변하지 않는 값, 자료형을 가지고 있다.
+// int, double, char, boolean 형 상수
+// 123, 123.456, 'A', true
 //
+// 상수의 종류
+// 1. 리터럴(literal) 상수 - 기본적인 상수 그 자체
+// 2. 이름있는 상수 - 변수를 상수화 시킨 것 -> final 로 마지막 선언했던거 기억하기
 //
