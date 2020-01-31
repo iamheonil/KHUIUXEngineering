@@ -47,14 +47,29 @@ public class Source3 {
 	System.out.println(i++ * 3);
 	System.out.println(i);
 	System.out.println(i * 3);
-	
+	System.out.println("");
 	
 // 삼항연산자 - 조건
 // 삼항조건연산자
 // 삼항연산자
 // 조건연산자
 	
+// ** 조건식 : 연산의 결과를 true / false 로 판별할 수 있는 연산식
+// 조건식 ? 참일때 반환 값 : 거짓일 때 반환 값
+	int jo1 = 10, jo2 = 20;
+	System.out.println(jo1 > jo2 ? "jo1 이 크다" : "jo1 이 크지않다.");
 	
+	int result;
+	result = jo1 > jo2 ? jo1 : jo2;
+	System.out.println(result);
+	
+// 위의 조건식은 안 쓰고 if 문으로 대체한다.
+	
+// 
+// 
+// 
+// 
+// 	
 	
 	}
 }
