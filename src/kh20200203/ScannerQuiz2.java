@@ -30,9 +30,10 @@ public class ScannerQuiz2 {
 		
 		int sum = kor + eng + mat;
 		double result = sum / (double)3;
+		String Cresult = String.format("%.2f", result);
 		
 		System.out.println("--- 결과 출력 ---");
 		System.out.println("이름\t 나이\t 성별\t 국어\t 영어\t 수학\t 총점\t 평균\t");
-		System.out.println(name + "\t" + age + "\t" + gender + "\t" + kor + "\t" + eng + "\t" + mat + "\t" + sum + "\t" + result);
+		System.out.println(name + "\t" + age + "\t" + gender + "\t" + kor + "\t" + eng + "\t" + mat + "\t" + sum + "\t" + Cresult);
 	}
 }
