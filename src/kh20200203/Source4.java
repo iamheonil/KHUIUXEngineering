@@ -89,7 +89,9 @@ public class Source4 {
 		if(input != 10) {
 			System.out.println("입력값은 10이 아닙니다.");
 		}
-		
+		if (input >= 1 && input <= 100) {
+			System.out.println("입력값은 1~100 사이의 정수");
+		}
 				
 	}
 }
