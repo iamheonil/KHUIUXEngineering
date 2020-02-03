@@ -18,10 +18,13 @@ public class IfBasicQuiz {
 //			>> Input Number1 : 44
 //			>> Input Number2 : 88
 //			>> 88 이 더 큰 수
+//
+// =============================================================================
+		
+		
 		Scanner sc = new Scanner(System.in);
 		
 //		1번 
-//		
 //		System.out.print("숫자를 입력하세요 : ");
 //		int result = sc.nextInt();
 //		
@@ -32,13 +35,15 @@ public class IfBasicQuiz {
 //		System.out.println("");
 //		
 		
+		
 //		2번
 //		System.out.print("판별할 수를 입력하세요 : ");
 //		int result = sc.nextInt();
-//		// % 연산자를 사용할 것.
+//		// % (나머지 연산) 연산자를 사용할 것.
 //		if (result % 3 == 0) {
 //			System.out.println("3의 배수가 맞습니다.");
 //		} else System.out.println("3의 배수가 아닙니다.");
+	
 		
 //		3번
 //		System.out.print("A의 값을 입력하세요 : ");
