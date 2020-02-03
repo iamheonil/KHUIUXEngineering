@@ -20,6 +20,6 @@ public class LogicalTest {
 //			7	 11		4
 //		위의 전위, 후위 계산법과 똑같다.
 		System.out.println("a : " + a + "\nb : " + b + "\nc : " + c + "\nd : " + d);
-
+		
 	}
 }
