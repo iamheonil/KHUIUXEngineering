@@ -9,6 +9,8 @@ public class IfElse {
 		
 		// 제어문 if, else 시작!
 		
+//		3의 배수를 구해보자.
+		
 //		System.out.print("판별할 수를 입력하세요 : ");
 //		int result = sc.nextInt();
 //		// % (나머지 연산) 연산자를 사용할 것.
@@ -17,13 +19,17 @@ public class IfElse {
 //		} else 
 //		System.out.println("3의 배수가 아닙니다.");
 		
-		System.out.print("판별할 수를 입력하세요. : ");
-		int result = sc.nextInt();
-		if (result % 2 == 0) {
-			System.out.println("짝수입니다.");
-		} else {
-			System.out.println("홀수입니다.");
-		}
+		
+//		홀수, 짝수인지 구해보자.
+		
+//		System.out.print("판별할 수를 입력하세요. : ");
+//		int result = sc.nextInt();
+//		if (result % 2 == 0) {
+//			System.out.println("짝수입니다.");
+//		} else {
+//			System.out.println("홀수입니다.");
+//		}
+		
 		
 		
 	}
