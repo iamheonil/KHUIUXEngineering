@@ -1,9 +1,0 @@
-package kh20200204;
-
-public class Study {
-	public static void main(String[] args) {
-
-		System.out.println("¿œ¥‹");
-		
-	}
-}

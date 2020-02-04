@@ -32,9 +32,10 @@ public class IfElse {
 		
 		int num = 5;
 		if ( num > 0 ) {	// 양수
-			
+			System.out.println("양수");
 		} else {	// 음수라고 생각하기 쉽지만, num 이 작거나 같다기 때문에 0 이나 음수이다.
-			
+			System.out.println("음수 or 0");
+			System.out.println("양수가 아닙니다.");
 		}
 		
 	}
