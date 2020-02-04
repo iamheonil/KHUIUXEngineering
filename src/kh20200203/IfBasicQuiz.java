@@ -33,27 +33,43 @@ public class IfBasicQuiz {
 //		} else
 //			System.out.println("양수입니다.");
 //		System.out.println("");
-//		
+		
 		
 		
 //		2번
 //		System.out.print("판별할 수를 입력하세요 : ");
 //		int result = sc.nextInt();
 //		// % (나머지 연산) 연산자를 사용할 것.
-//		if (result % 3 == 0) {
+//		if (result % 3 == 0 && result != 0) {
 //			System.out.println("3의 배수가 맞습니다.");
-//		} else System.out.println("3의 배수가 아닙니다.");
-	
+//		} else 
+//		System.out.println("3의 배수가 아닙니다.");
+//	}
+
 		
 //		3번
-//		System.out.print("A의 값을 입력하세요 : ");
-//		int a = sc.nextInt();
-//		System.out.print("B의 값을 입력하세요 : ");
-//		int b = sc.nextInt();
-//		if(a > b) {
-//			System.out.println("A가 더 큰 값입니다.");
-//		} else
-//			System.out.println("B가 더 큰 값입니다.");			
+		System.out.print("A의 값을 입력하세요 : ");
+		int a = sc.nextInt();
+		System.out.print("B의 값을 입력하세요 : ");
+		int b = sc.nextInt();
+		if(a > b) {
+			System.out.println("A가 더 큰 값입니다.");
+		} else if (a == b){ 
+			System.out.println("두 수가 같습니다.");
+		} else
+			System.out.println("B가 더 큰 값입니다.");			
+		
+		
+//		0까지 출력해보기
+//		System.out.println("판별할 수를 입력 : ");
+//		int result = sc.nextInt();
+//		if (result < 0) {
+//			System.out.println("음수입니다.");
+//		} else if (result == 0) {
+//			System.out.println("0입니다 이건");
+//		} else {
+//			System.out.println("양수입니다.");
+//		}
 		
 	}
 }
