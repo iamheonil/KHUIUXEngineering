@@ -1,5 +1,7 @@
 package kh20200204;
 
+import java.util.Scanner;
+
 public class Loop_02 {
 	public static void main(String[] args) {
 
@@ -125,5 +127,22 @@ public class Loop_02 {
 //			System.out.println("");
 //		}
 
+		
+//		for (int i = 1; i <= 5; i++) {
+//			for(int j = 0; j < 5; j++) {
+//				System.out.print(i + j);
+//			} System.out.println("");
+//		}
+		
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int N = 0;
+		System.out.print("N을 입력하세요 : ");
+		N = sc.nextInt();
+		
+		for (int i = 1; i <= 9; i++) {
+			System.out.println(N + " * " + i + " = " + N * i);
+		}
 	}
 }
