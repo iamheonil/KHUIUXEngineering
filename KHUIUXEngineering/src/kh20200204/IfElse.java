@@ -30,7 +30,12 @@ public class IfElse {
 //			System.out.println("홀수입니다.");
 //		}
 		
-		
+		int num = 5;
+		if ( num > 0 ) {	// 양수
+			
+		} else {	// 음수라고 생각하기 쉽지만, num 이 작거나 같다기 때문에 0 이나 음수이다.
+			
+		}
 		
 	}
 }
