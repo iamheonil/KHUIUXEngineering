@@ -48,17 +48,17 @@ public class IfBasicQuiz {
 
 		
 //		3번
-		System.out.print("A의 값을 입력하세요 : ");
-		int a = sc.nextInt();
-		System.out.print("B의 값을 입력하세요 : ");
-		int b = sc.nextInt();
-		if(a > b) {
-			System.out.println("A가 더 큰 값입니다.");
-		} else if (a == b){ 
-			System.out.println("두 수가 같습니다.");
-		} else
-			System.out.println("B가 더 큰 값입니다.");			
-		
+//		System.out.print("A의 값을 입력하세요 : ");
+//		int a = sc.nextInt();
+//		System.out.print("B의 값을 입력하세요 : ");
+//		int b = sc.nextInt();
+//		if(a > b) {
+//			System.out.println("A가 더 큰 값입니다.");
+//		} else if (a == b){ 
+//			System.out.println("두 수가 같습니다.");
+//		} else
+//			System.out.println("B가 더 큰 값입니다.");			
+//		
 		
 //		0까지 출력해보기
 //		System.out.println("판별할 수를 입력 : ");
@@ -71,5 +71,46 @@ public class IfBasicQuiz {
 //			System.out.println("양수입니다.");
 //		}
 		
+		
+		//if ~ else if ~ else 응용해서 풀어보기
+	      
+		
+//      +세 수를 입력 받아 가장 큰 수를 입력하시오
+		int num1, num2, num3;
+		System.out.println("1번째 수 입력 : ");
+		num1 = sc.nextInt();
+		System.out.println("2번째 수 입력 : ");
+		num2 = sc.nextInt();
+		System.out.println("3번째 수 입력 : ");
+		num3 = sc.nextInt();
+
+		
+		
+	      
+//     +세 과목의 성적을 입력받아 합계와 평균을 구하고 
+//     평균이 90이상아묜 "A", 80이상이면 "B"
+//     70이상이면 "C", 60이상이면 "D", 60미만이면  "F"를 출력하시오
+//		int num1, num2, num3;
+//		System.out.println("1번째 성적 입력 : ");
+//		num1 = sc.nextInt();
+//		System.out.println("2번째 성적 입력 : ");
+//		num2 = sc.nextInt();
+//		System.out.println("3번째 성적 입력 : ");
+//		num3 = sc.nextInt();
+//		
+//		int sum = num1 + num2 + num3;
+//		double div = sum / (double) 3;
+//		
+//		if (div >= 90) {
+//			System.out.println("A입니다.");
+//		} else if (div < 90) {
+//			System.out.println("B입니다.");
+//		} else if (div < 80) {
+//			System.out.println("C입니다.");
+//		} else {
+//			System.out.println("F입니다.");
+//		}
+		
+     
 	}
 }
