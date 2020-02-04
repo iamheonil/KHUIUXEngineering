@@ -42,7 +42,9 @@ public class IfBasicQuiz {
 //		// % (나머지 연산) 연산자를 사용할 것.
 //		if (result % 3 == 0 && result != 0) {
 //			System.out.println("3의 배수가 맞습니다.");
-//		} else System.out.println("3의 배수가 아닙니다.");
+//		} else 
+//		System.out.println("3의 배수가 아닙니다.");
+//	}
 
 		
 //		3번
