@@ -76,15 +76,33 @@ public class IfBasicQuiz {
 	      
 		
 //      +세 수를 입력 받아 가장 큰 수를 입력하시오
-		int num1, num2, num3;
-		System.out.println("1번째 수 입력 : ");
-		num1 = sc.nextInt();
-		System.out.println("2번째 수 입력 : ");
-		num2 = sc.nextInt();
-		System.out.println("3번째 수 입력 : ");
-		num3 = sc.nextInt();
+//		int num1, num2, num3;
+//		System.out.print("1번째 수 입력 : ");
+//		num1 = sc.nextInt();
+//		System.out.print("2번째 수 입력 : ");
+//		num2 = sc.nextInt();
+//		System.out.print("3번째 수 입력 : ");
+//		num3 = sc.nextInt();
+//		if (num1 > num2 && num1 > num3) {
+//			System.out.println(num1);
+//		} else if (num2 > num1 && num2 > num3) {
+//			System.out.println(num2);
+//		} else {
+//			System.out.println(num3);
+//		}
 
+//		1에서 1000까지 4로, 6으로 나누어도 나머지가 1인수의 합
+//		int div;
+//		div = sc.nextInt();
+//		
+//		int sum = (div % 4);
+//		System.out.println(sum);
 		
+		int div;
+		for(int i = 0; i <= 1000; i++) {
+			
+			System.out.println(i);
+		}
 		
 	      
 //     +세 과목의 성적을 입력받아 합계와 평균을 구하고 
