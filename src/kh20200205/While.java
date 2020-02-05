@@ -1,5 +1,7 @@
 package kh20200205;
 
+import java.util.Scanner;
+
 public class While {
 	public static void main(String[] args) {
 
@@ -62,13 +64,16 @@ public class While {
 		// 초기식 : i * 1
 		// 조건식 : i <= 9
 		// 증감식 : i++
+//		Scanner sc = new Scanner(System.in);
+//		
+//		System.out.print("수를 입력하세요 : ");
+//		int dan = sc.nextInt();
+//		int i = 1;
+//		while (i <= 9) {
+//			System.out.println(dan * i);
+//			i++;
+//		}
 		
-		int i = 1;
-		while (i <= 9) {
-			System.out.println(2 * i);
-			
-			i++;
-		}
 		
 	}
 }

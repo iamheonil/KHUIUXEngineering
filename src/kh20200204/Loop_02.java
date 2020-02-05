@@ -119,7 +119,6 @@ public class Loop_02 {
 
 		// Q7. 역순으로다가 56789 ~ 12345
 //		for (int i = 5; i > 0; i--) {
-<<<<<<< HEAD
 //			for(int j = 0; j < 5; j++) {
 //				System.out.print(i + j);
 //			}System.out.println("");
@@ -137,12 +136,12 @@ public class Loop_02 {
 ////				System.out.println("");
 ////			}
 //		}
-=======
+
 //			for(int j = 0; j <= 4; j++) {
 //				System.out.print(i + j);
 //			}System.out.println("");
 //		}
->>>>>>> f7852c6f3d63a7c51a6fda4e14e7be4942c7520b
+
 
 //		// Q8. 별 찍기
 //		for (int i = 1; i < 6; i++) {
@@ -159,7 +158,7 @@ public class Loop_02 {
 //			}
 //			System.out.println("");
 //		}
-<<<<<<< HEAD
+
 
 //		for (int i = 1; i <= 5; i++) {
 //			for(int j = 0; j < 5; j++) {
@@ -176,8 +175,7 @@ public class Loop_02 {
 //		for (int i = 1; i <= 9; i++) {
 //			System.out.println(N + " * " + i + " = " + N * i);
 //		}
-=======
->>>>>>> f7852c6f3d63a7c51a6fda4e14e7be4942c7520b
+
 
 		
 //		for (int i = 1; i <= 5; i++) {
@@ -185,10 +183,7 @@ public class Loop_02 {
 //				System.out.print(i + j);
 //			} System.out.println("");
 //		}
-		
-		
-		Scanner sc = new Scanner(System.in);
-		
+				
 		int N = 0;
 		System.out.print("N을 입력하세요 : ");
 		N = sc.nextInt();
