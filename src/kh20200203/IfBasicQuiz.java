@@ -97,11 +97,13 @@ public class IfBasicQuiz {
 //		
 //		int sum = (div % 4);
 //		System.out.println(sum);
+		int four = 4;
+		int six = 6;
 		
-		int div;
-		for(int i = 0; i <= 1000; i++) {
-			
-			System.out.println(i);
+		
+		for(int i = 1; i <= 1000; i++) {
+			int div = i % four;
+			System.out.println(div);
 		}
 		
 	      
