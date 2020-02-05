@@ -1,7 +1,11 @@
 package kh20200204;
 
+import java.util.Scanner;
+
 public class Loop_02 {
 	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
 
 		// 제어문 중첩 시키기.
 		// if 안의 if 또 쓰는식?
@@ -57,6 +61,8 @@ public class Loop_02 {
 //			System.out.println("");
 //		}
 
+// <===========================================================================>
+
 		// Q1.
 //		for (int i = 0; i < 1; i++) {
 //			for (int j = 0; j < 5; j++) {
@@ -79,35 +85,88 @@ public class Loop_02 {
 
 		// Q4.
 //		for (int i = 1; i < 6; i++) {
-//		for (int j = 1; j < 6; j++) {
-//			System.out.print(i);
+//			for (int j = 1; j < 6; j++) {
+//				System.out.print(i);
+//			}
+//			System.out.println("");
 //		}
-//		System.out.println(i);
-//	}
+//		
+//		System.out.println("");
+//
+//		for (int i = 0; i < 5; i++) {
+//			
+//			for (int j = 0; j < 5; j++) {
+//				System.out.print(i + 1);
+//			}
+//			
+//			System.out.println("");
+//		}
 
 		// Q5.
-//		int j = 0;
-//		for (int i = 1; i < 6; i++) {
-//			for (j = 1; j < 5; j++) {
-//				System.out.print(j);
-//			}
-//			System.out.println(j);
+//		for(int j = 0; j < 5; j++) {
+//			for(int i = 0; i < 5; i++) {
+//			System.out.print(i + 1);
+//			} System.out.println();
 //		}
 
-		// Q6.
-		for (int i = 1; i <= 6; i++) {
-			System.out.print(i);
-			i++;
-		}for (int j = 1; j <= 5; j++) {
-		System.out.println(j);		
-	}
+		// Q6. - 12345 23456 34567 45678 56789
+
+//		for(int i = 0; i < 5; i++) {
+//			for (int j = 1; j <= 5; j++) {
+//			System.out.print(i + j);
+//			} System.out.println("");
+//		}
+
+		// Q7. 역순으로다가 56789 ~ 12345
+//		for (int i = 5; i > 0; i--) {
+//			for(int j = 0; j < 5; j++) {
+//				System.out.print(i + j);
+//			}System.out.println("");
+//		}
 		
-//		// Q8.
+		for (int i = 5; i > 0; i--) {
+			for (int j = i; j <= i+4; j++) {
+				System.out.print(j);
+			}System.out.println();
+		}
+
+//		for (int i = 1; i < 6; i++) {
+//			System.out.print("*");
+////			for(int j = 1; j < 2; j++) {
+////				System.out.println("");
+////			}
+//		}
+
+//		// Q8. 별 찍기
 //		for (int i = 1; i < 6; i++) {
 //			for (int j = 0; j < i; j++) {
 //				System.out.print("*");
 //			}
 //			System.out.println("");
+//		}
+//
+//		// Q9. 별 역으로 찍기
+//		for (int i = 6; i > 0; i--) {
+//			for (int j = 0; j < i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//		}
+
+//		for (int i = 1; i <= 5; i++) {
+//			for(int j = 0; j < 5; j++) {
+//				System.out.print(i + j);
+//			} System.out.println("");
+//		}
+
+//		Scanner sc = new Scanner(System.in);
+//		
+//		int N = 0;
+//		System.out.print("N을 입력하세요 : ");
+//		N = sc.nextInt();
+//		
+//		for (int i = 1; i <= 9; i++) {
+//			System.out.println(N + " * " + i + " = " + N * i);
 //		}
 
 	}
