@@ -42,22 +42,22 @@ public class LoopQuiz {
 		// * 소수 = 1 과 자신의 숫자로만 나누어 떨어지는 수
 		// * ex) 2,3,5,7,11,13, ...
 		
-		System.out.print("수를 입력해보세요 : ");
-		int scInt = sc.nextInt();
-		
-		int count = 0;
-		for (int i = 1; i <= scInt; i++)
-		{
-			for (int j = 2; j <= scInt; j++) {
-				if (i % j == 0) {
-					count++;
-				}
-			}
-			if (count == 1) {
-				System.out.print(i + ", ");
-			}
-				count = 0;
-		}
+//		System.out.print("수를 입력해보세요 : ");
+//		int scInt = sc.nextInt();
+//		
+//		int count = 0;
+//		for (int i = 1; i <= scInt; i++)
+//		{
+//			for (int j = 2; j <= scInt; j++) {
+//				if (i % j == 0) {
+//					count++;
+//				}
+//			}
+//			if (count == 1) {
+//				System.out.print(i + ", ");
+//			}
+//				count = 0;
+//		}
 		// i = 1부터 시작, scInt(스캔값)과 같아질 때 까지 1차 포문
 		// 안쪽 포문 1은 아무수도 아니기에 2부터 시작, 마찬가지로 scInt(스캔값)과 같아질 때까지 증가한다.
 		// i, j 둘 다 입력 값이기때문에 바깥 포문과 안쪽 포문이 차례대로 증가하면서 연산한다.
