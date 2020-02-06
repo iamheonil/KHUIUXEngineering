@@ -20,17 +20,26 @@ public class LoopQuiz {
 
 		// 어떤 수의 약수를 구하는 프로그램을 작성하여라
 		// 약수 = 어떤 수를 정수로 나눌 수 있는 수
-		
+
+//		System.out.print("약수 구할 값을 입력하세요. : ");
+//		int yak = sc.nextInt();
+//		
+//		for (int i = 1; i <= yak; i++) {
+//			if(yak % i == 0) {
+//				System.out.print(i + " ");	
+//			} 
+//		}
 
 		// 1에서 1000까지의 정수중에서 4로 나누어도
 		// 6으로 나누어도 나머지가 1인 수의 합을 출력하라.
 		// > 41916
 
-		// int loopsu;
-		// loopsu = sc.nextInt();
-		// for (int i = 0; i < 1000; i++) {
-		//
-		// }
+//		int LoopSu = 0;
+//		for (int i = 1; i <= 1000; i++) {
+//			if (i % 4 == 1 && i % 6 == 1) {
+//				LoopSu += i;
+//			}
+//		}System.out.println(LoopSu);
 
 		// 입력받은 두수의 최소 공배수와 최대 공약수를 구하는
 		// 프로그램을 작성하라.
@@ -41,7 +50,7 @@ public class LoopQuiz {
 		// 찾는 프로그램을 작성하라.
 		// * 소수 = 1 과 자신의 숫자로만 나누어 떨어지는 수
 		// * ex) 2,3,5,7,11,13, ...
-		
+
 //		System.out.print("수를 입력해보세요 : ");
 //		int scInt = sc.nextInt();
 //		
@@ -64,7 +73,7 @@ public class LoopQuiz {
 		// 소수는 1을 포함한 나의 숫자로만 나눠져야하기때문에 나눴을 때 나머지가 0이라면 count를 더한다.
 		// count가 1이 된다면 바깥포문에서 i의 숫자와 콤마를 print 해주고 다시 0으로 초기화 해준다.
 		// 이 과정을 입력한 scInt 까지 무한반복 결과가 출력된다.
-		
+
 		// Q1.
 //		for (int i = 0; i < 1; i++) {
 //			for (int j = 0; j < 5; j++) {
@@ -161,12 +170,32 @@ public class LoopQuiz {
 //		}
 
 //		// Q10. 별 5 4 3 2 1 순으로 찍기
-//		for (int j = 5; j > 0; j--) {
-//			for (int i = 0; i < 5; i++) {
-//				System.out.print("*");
-//				
-//			} j--; System.out.println();
+		// *****
+		// 	****
+		// 	 *** .. 2개 1개까지
+//		for (int i = 5; i >= 1; i--) {
+//			for (int j = 5; j >= 1; j--) {
+//				if (j > i) {
+//				System.out.print(" ");
+//				} else {
+//					System.out.print("*");	
+//				}
+//			} System.out.println();
+//		} 
+//		
+		// Q11. 별 역으로
+//		for (int i = 5; i >= 1; i--) {
+//			for (int j = 1; j <= 5; j++) {
+//				if (i > j) {
+//					System.out.print(" ");
+//				} else {
+//					System.out.print("*");
+//				}
+//			}
+//			System.out.println(" ");
 //		}
 
-	}
-}
+		
+		
+	} // Main End
+} // Class End
