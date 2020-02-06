@@ -39,18 +39,17 @@ public class ArrayQuiz_02 {
 //		    => arr : 	 { 10, 17, 3,  9, 27, 10, 8, 9, 13, 21 }
 //		    => rank_arr :{  5,  3, 10, 7,  1,  5, 9, 7,  4,  2 }
 
-		int vs_arr[] = new int[10];
 		int rank_cArr[] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 		
-			for (int i = 0; i < vs_arr.length; i++) {
-				for (int j = 0; j < vs_arr.length; j++) {
+			for (int i = 0; i < arr.length; i++) {
+				for (int j = 0; j < arr.length; j++) {
 				if(arr[i] < arr[j]) {
 						rank_cArr[i]++;
 					}
 				} System.out.print(arr[i] + "\t");
 			} System.out.println();
 			
-			for (int i = 0; i < vs_arr.length; i++) {
+			for (int i = 0; i < arr.length; i++) {
 				System.out.print(rank_cArr[i] + "µî\t");
 			}
 
