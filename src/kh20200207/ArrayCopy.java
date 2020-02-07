@@ -106,7 +106,7 @@ public class ArrayCopy {
 		for (int i = 0; i <= 2; i++) {
 			System.out.println(arr1[i] + " : " + arr2[i] + " ");
 		}
-		
 	
+		
 	} // Main End
 } // Class End
