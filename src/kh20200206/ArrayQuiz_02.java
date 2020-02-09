@@ -39,19 +39,19 @@ public class ArrayQuiz_02 {
 //		    => arr : 	 { 10, 17, 3,  9, 27, 10, 8, 9, 13, 21 }
 //		    => rank_arr :{  5,  3, 10, 7,  1,  5, 9, 7,  4,  2 }
 
-		int rank_cArr[] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
-		
-			for (int i = 0; i < arr.length; i++) {
-				for (int j = 0; j < arr.length; j++) {
-				if(arr[i] < arr[j]) {
-						rank_cArr[i]++;
-					}
-				} System.out.print(arr[i] + "\t");
-			} System.out.println();
-			
-			for (int i = 0; i < arr.length; i++) {
-				System.out.print(rank_cArr[i] + "등\t");
-			}
+//		int rank_cArr[] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+//		
+//			for (int i = 0; i < arr.length; i++) {
+//				for (int j = 0; j < arr.length; j++) {
+//				if(arr[i] < arr[j]) {
+//						rank_cArr[i]++;
+//					}
+//				} System.out.print(arr[i] + "\t");
+//			} System.out.println();
+//			
+//			for (int i = 0; i < arr.length; i++) {
+//				System.out.print(rank_cArr[i] + "등\t");
+//			}
 
 //		Q4. 
 //		중복된 값은 over_arr에 넣고 중복되지 않은 값은 ret_arr에 입력하시오 정렬까지 했다면
