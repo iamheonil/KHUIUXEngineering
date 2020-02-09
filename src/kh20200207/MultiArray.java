@@ -73,72 +73,112 @@ public class MultiArray {
 		// 4명의 학생
 		// 3과목 점수
 
-		int[][][][] score = new int[3][2][4][3]; // 점수를 저장할 수 있는 공간.
-		// 이렇게 4차원 배열을 만들어버리면 반복문도 4 중첩 해야하기 때문에
-		// 고정 되어있는 항목을 제외하고 유동적인 항목들은 따로 빼내어 반복문을 다시 돌려야한다.
+//		int[][][][] score = new int[3][2][4][3]; // 점수를 저장할 수 있는 공간.
+//		// 이렇게 4차원 배열을 만들어버리면 반복문도 4 중첩 해야하기 때문에
+//		// 고정 되어있는 항목을 제외하고 유동적인 항목들은 따로 빼내어 반복문을 다시 돌려야한다.
+//
+//		int[][][] sco1 = new int[2][4][3];
+//		int[][][] sco2 = new int[2][4][3];
+//		int[][][] sco3 = new int[2][4][3];
+//
+////		2명의 학생정보를 관리하게 됐다.									] 1
+////		국, 영, 수 점수를 입력하여 저장하고								] 묶음 
+//
+////		총점을 구한다.													] 1묶음
+////		평균을 구한다.													] 1묶음
+//
+////		마지막엔 전체 출력.												] 1묶음
+//
+//		int[][] stu = new int[2][3];
+//		int[] sum = new int[2];
+//		double[] avg = new double[2];
+//
+//		String subject[] = { "국어", "영어", "수학" };
+//
+//		Scanner sc = new Scanner(System.in);
+//
+//		for (int i = 0; i < stu.length; i++) {
+//			for (int j = 0; j < stu.length + 1; j++) {
+//				System.out.print(i + 1 + "번째 핵상의 " + subject[j] + " 입력 : ");
+//				stu[i][j] = sc.nextInt();
+//			}
+//		}
+//
+//		System.out.println();
+//
+//		for (int i = 0; i < sum.length; i++) {
+//			for (int j = 0; j < stu[i].length; j++) {
+//				sum[i] += stu[i][j];
+//			}
+//		}
+//
+////		for (int i = 0; i < stu.length; i++) {
+////			for (int j = 0; j < stu[i].length; j++) {
+////				System.out.println(i + 1 + " 번째 학생의 점수는 : " + stu[i][j]);
+////			}
+////			System.out.println();
+////		}
+//
+////		for (int i = 0; i < sum.length; i++) {
+////			System.out.println(i + 1 + " 번째 학생의 총 점수는 : " + sum[i]);
+////		}
+//
+//		for (int i = 0; i < avg.length; i++) {
+//			avg[i] = sum[i] / (double) stu[i].length;
+//		}
+//		
+//
+//		for (int i = 0; i < stu.length; i++) {
+//			
+//			System.out.println((i + 1) + " 번째 학생은 총 점수는 : " + sum[i]);
+//			for (int j = 0; j < stu.length; j++) {
+//			System.out.println("번호\t국어\t영어\t수학\t총점\t평균");
+////			System.out.print((i + 1) + "번" + sum[i][j] + " ");
+//			}
+////			System.out.printf("\t%.2f\n", avg[j]);
+//		}
 
+		//
+
+		int[][][][] score = new int[3][2][4][3];// 1~3학년 2개반 4명 학생의 3과목 점수
 		int[][][] sco1 = new int[2][4][3];
 		int[][][] sco2 = new int[2][4][3];
 		int[][][] sco3 = new int[2][4][3];
 
-//		2명의 학생정보를 관리하게 됐다.									] 1
-//		국, 영, 수 점수를 입력하여 저장하고								] 묶음 
+		// ---------------------------------
+		// 2명의 학생정보
+		// 국어,영어,수학점수를 입력해서 저장
+		// 총점,평균을 구한다.
+		final int STUDENT_NUM = 2;
+		final int SUBJECT_NUM = 3;
 
-//		총점을 구한다.													] 1묶음
-//		평균을 구한다.													] 1묶음
-
-//		마지막엔 전체 출력.												] 1묶음
-
-		int[][] stu = new int[2][3];
-		int[] sum = new int[2];
-		double[] avg = new double[2];
-
-		String subject[] = { "국어", "영어", "수학" };
-
+		int[][] arr = new int[STUDENT_NUM][SUBJECT_NUM];
+		int[] sum = new int[arr.length];// 합계를 담는 배열
+		double[] avg = new double[arr.length];// 평균을 담는 배열
 		Scanner sc = new Scanner(System.in);
-
-		for (int i = 0; i < stu.length; i++) {
-			for (int j = 0; j < stu.length + 1; j++) {
-				System.out.print(i + 1 + "번째 핵상의 " + subject[j] + " 입력 : ");
-				stu[i][j] = sc.nextInt();
+		
+		// -------학생의 점수입력, 합계계산 ,평균을 계산하는 부분-----------
+		for (int i = 0; i < arr.length; i++) {
+			System.out.print("학생" + (i + 1) + "의 국어,영어,수학 점수를 입력하시오 >>");
+			for (int j = 0; j < arr[i].length; j++) {
+				arr[i][j] = sc.nextInt();// 과목을 입력
+				sum[i] += arr[i][j];// 각 학생의 점수를 합함
 			}
-		}
-
-		System.out.println();
-
-		for (int i = 0; i < sum.length; i++) {
-			for (int j = 0; j < stu[i].length; j++) {
-				sum[i] += stu[i][j];
-			}
-		}
-
-//		for (int i = 0; i < stu.length; i++) {
-//			for (int j = 0; j < stu[i].length; j++) {
-//				System.out.println(i + 1 + " 번째 학생의 점수는 : " + stu[i][j]);
-//			}
-//			System.out.println();
-//		}
-
-//		for (int i = 0; i < sum.length; i++) {
-//			System.out.println(i + 1 + " 번째 학생의 총 점수는 : " + sum[i]);
-//		}
-
-		for (int i = 0; i < avg.length; i++) {
-			avg[i] = sum[i] / (double) stu[i].length;
+			avg[i] = (double) sum[i] / arr[i].length;// 합계에 대한 평균
 		}
 		
-
-		for (int i = 0; i < stu.length; i++) {
-			
-			System.out.println((i + 1) + " 번째 학생은 총 점수는 : " + sum[i]);
-			for (int j = 0; j < stu.length; j++) {
-			System.out.println("번호\t국어\t영어\t수학\t총점\t평균");
-//			System.out.print((i + 1) + "번" + sum[i][j] + " ");
+		// ---------결과를 출력하는 코드--------------
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println("-----------------------학생" + (i + 1) + "-----------------------");
+			System.out.println("국어\t영어\t수학\t합계\t평균");
+			for (int j = 0; j < arr[i].length; j++) {
+				System.out.print(arr[i][j] + "\t");// 점수를 출력
 			}
-//			System.out.printf("\t%.2f\n", avg[j]);
-		}
+			System.out.print(sum[i] + "\t");// 합계를 출력
+			System.out.println(String.format("%.2f", avg[i]));// 평균을 출력
+			System.out.println();// 줄바꿈
 
-		//
+		}
 
 	} // Main End
 } // Class End
