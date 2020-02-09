@@ -12,7 +12,7 @@ public class Random {
 		System.out.print("\t랜덤 번호 생성합니다! : ");
 		for (int i = 0; i < randomArr.length; i++) {
 
-			randomArr[i] = (int) (Math.random() * 45);
+			randomArr[i] = (int) (Math.random() * 47);
 
 			System.out.print(randomArr[i] + " ");
 
