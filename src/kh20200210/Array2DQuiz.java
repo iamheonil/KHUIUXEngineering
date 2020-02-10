@@ -58,28 +58,26 @@ public class Array2DQuiz {
 		
 		// j 1~5까지 증가, i 1~5까지 증가, j 5~1까지 감소, i 4~1까지 감소, j 1부터 4까지, i 1부터 3까지,
 		
-		int[][] QArr = new int[10][10];
-		int count = 0;
-		
-		for (int i = 0; i < QArr.length; i++) {
-			for (int j = 0; j < QArr[i].length; j++) {
-				
-				QArr[i][j] = 1 + count++;
-				
-			
-
-			}
-		}
-
-		// 아래는 출력소스
-		// 건들지 말것
-		for (int i = 0; i < QArr.length; i++) {
-			for (int j = 0; j < QArr[i].length; j++) {
-
-				System.out.print(QArr[i][j] + "\t");
-			}
-			System.out.println();
-		}
+//		int[][] QArr = new int[10][10];
+//		int count = 0;
+//
+//		for (int i = 0; i < QArr.length; i++) {
+//			for (int j = 0; j < QArr[i].length; j++) {
+//
+//				QArr[i][j] = 1 + count++;
+//
+//			}
+//		}
+//
+//		// 아래는 출력소스
+//		// 건들지 말것
+//		for (int i = 0; i < QArr.length; i++) {
+//			for (int j = 0; j < QArr[i].length; j++) {
+//
+//				System.out.print(QArr[i][j] + "\t");
+//			}
+//			System.out.println();
+//		}
 
 	} // MAIN END
 } // CLASS END
