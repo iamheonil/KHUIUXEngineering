@@ -7,8 +7,8 @@ public class ArrayQuiz_02 {
 //		 배열이 선언된 뒤 문제를 푸시오
 
 		int arr[] = { 10, 17, 3, 9, 27, 10, 8, 9, 13, 21 };
-		int invert_arr[] = new int[10];
 
+		int invert_arr[] = new int[10];
 		int first = 0;
 		int sec = 0;
 
@@ -53,11 +53,24 @@ public class ArrayQuiz_02 {
 //				System.out.print(rank_cArr[i] + "등\t");
 //			}
 
-//		Q4. 
+//		Q4. 		  01  02  03 04 05  06  07 08 09  010
+//		int arr[] = { 10, 17, 3, 9, 27, 10, 8, 9, 13, 21 };
 //		중복된 값은 over_arr에 넣고 중복되지 않은 값은 ret_arr에 입력하시오 정렬까지 했다면
 //		    => over_arr : { 9, 10 }
 //		    => ret_arr : { 3, 8, 13, 17, 21, 27 }
 
+//		int[] over_arr = new int[15]; // 00 01 02
+//		int[] ret_arr = new int[15]; // 00 01 02 03 04 05 06
+//
+//		int count = 0;
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			for (int j = 10; j > arr.length; j--) {
+//				if (arr[i] == arr[j]) {
+//					ret_arr[i] = arr[i];
+//				} System.out.print(ret_arr[i]);
+//			}
+//		}
 // ==========================================================================================
 
 	} // Main End

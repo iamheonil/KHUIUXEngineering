@@ -46,10 +46,55 @@ public class LoopQuiz {
 		// 최소공배수 = 공배수 중에서 가장 작은 정수
 		// 최대공약수 = 공약수 중에서 절대치가 가장 큰 수
 
+//		int val1, val2;
+//		int r = 1;
+//		int LCM;
+//
+//		System.out.print("첫번째 수를 입력하시오 : ");
+//		val1 = sc.nextInt();
+//		System.out.print("두번째 수를 입력하시오 : ");
+//		val2 = sc.nextInt();
+//
+//		int tmp1 = val1, tmp2 = val2; 	// 최소공배수를 구하기 위해 입력받은 값 저장
+//		if (val1 < val2) {				// 2번째 입력수가 클 경우 큰수를 val1으로 변경
+//			val1 = tmp2;
+//			val2 = tmp1;
+//		}
+//
+//		while (r > 0) {					// GCD 구하기
+//			r = val1 % val2;
+//			val1 = val2;
+//			val2 = r;
+//		}
+//		
+//		LCM = tmp1 * tmp2 / val1;		// LCM 구하기
+//		System.out.println("GCD(최대공약수) : " + val1);
+//		System.out.println("LCM(최소공배수) : " + LCM);
+
 		// 1에서부터 입력된 어떤 수까지 내에 있는 소수를
 		// 찾는 프로그램을 작성하라.
 		// * 소수 = 1 과 자신의 숫자로만 나누어 떨어지는 수
 		// * ex) 2,3,5,7,11,13, ...
+
+		int x = 0;
+		System.out.print("소수를 구할 어떤 수를 입력해주세요. : ");
+		x = sc.nextInt();
+		int result = 0;
+
+		for (int i = 2; i <= x; i++) {
+			boolean isPrime = true; // 초기 값
+			for (int j = 2; j <= i / 2; j++) {
+				if (i % j == 0) {
+				}
+				// 소수가 아니다.
+				isPrime = false;
+				break;
+			}
+			if (isPrime) { // 소수 일때만 값을 출력
+				System.out.print(i + " ");
+			}
+		}
+		sc.close();
 
 //		System.out.print("수를 입력해보세요 : ");
 //		int scInt = sc.nextInt();
@@ -171,8 +216,8 @@ public class LoopQuiz {
 
 //		// Q10. 별 5 4 3 2 1 순으로 찍기
 		// *****
-		// 	****
-		// 	 *** .. 2개 1개까지
+		// ****
+		// *** .. 2개 1개까지
 //		for (int i = 5; i >= 1; i--) {
 //			for (int j = 5; j >= 1; j--) {
 //				if (j > i) {
@@ -195,7 +240,33 @@ public class LoopQuiz {
 //			System.out.println(" ");
 //		}
 
-		
-		
+		// Q12. 별 세트1
+//		for (int i = 1; i < 5; i++) {
+//			for (int j = 0; j < i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//		}
+//		for (int i = 5; i > 0; i--) {
+//			for (int j = 0; j < i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//		}
+
+		// Q13. 별 세트2
+//		for (int i = 5; i > 1; i--) {
+//			for (int j = 0; j < i; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//		}
+//		for (int i = 0; i < 5; i++) {
+//			for (int j = 0; j < i+1; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println("");
+//		}
+
 	} // Main End
 } // Class End

@@ -3,7 +3,7 @@ package kh20200210;
 public class Array2DQuiz {
 	public static void main(String[] args) {
 
-//		int[][] QArr = new int[5][5];
+//		int[][] QArr = new int[5];
 //		int count = 0;
 
 		// Q1 .
