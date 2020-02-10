@@ -9,7 +9,7 @@ public class Random {
 
 		System.out.println("");
 		System.out.println("");
-		System.out.print("\t1~45ê¹Œì§€ì˜ ëœë¤ ìˆ«ìë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤. : ");
+		System.out.print("\t1~45 ºÎÅÍ ·£´ıÇÑ ¼ö¸¦ »Ì¾Æ³À´Ï´Ù. : ");
 		for (int i = 0; i < randomArr.length; i++) {
 
 			randomArr[i] = (int) (Math.random() * 45);
