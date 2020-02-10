@@ -94,7 +94,6 @@ public class LoopQuiz {
 				System.out.print(i + " ");
 			}
 		}
-		sc.close();
 
 //		System.out.print("수를 입력해보세요 : ");
 //		int scInt = sc.nextInt();
