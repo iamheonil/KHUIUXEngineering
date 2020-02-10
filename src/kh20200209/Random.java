@@ -9,10 +9,10 @@ public class Random {
 
 		System.out.println("");
 		System.out.println("");
-		System.out.print("\t·£´ı ¹øÈ£ »ı¼ºÇÕ´Ï´Ù! : ");
+		System.out.print("\t1~45ê¹Œì§€ì˜ ëœë¤ ìˆ«ìë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤. : ");
 		for (int i = 0; i < randomArr.length; i++) {
 
-			randomArr[i] = (int) (Math.random() * 47);
+			randomArr[i] = (int) (Math.random() * 45);
 
 			System.out.print(randomArr[i] + " ");
 
