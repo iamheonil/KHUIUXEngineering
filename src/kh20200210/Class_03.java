@@ -8,8 +8,6 @@ public class Class_03 {
 	private String name; 	// 이름
 	private double height; 	// 키
 	
-
-	
 	
 	// Getter, Setter Method 를 사용하여 private 의 접근 제한자를 일시적으로 허용한다.
 	
@@ -23,6 +21,6 @@ public class Class_03 {
 		this.num = num;
 	}
 	
-	
+
 
 }
