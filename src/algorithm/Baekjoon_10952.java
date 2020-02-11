@@ -16,7 +16,7 @@ public class Baekjoon_10952 {
 		while(a != 0 && b != 0) {
 			System.out.println(a + b);
 		}
-	
-				
+		// 미완성 보완해야함.
+		
 	}
 }
