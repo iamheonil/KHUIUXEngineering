@@ -10,17 +10,17 @@ public class MethodQuizEx {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
-		MethodQuiz MQ = new MethodQuiz();
+		MethodQuiz mq = new MethodQuiz();
 		
 
 		// 1번
-//		MQ.oneHund();
+//		mq.oneHund();
 		
 		// 2번
 //		int helNum = 0;
 //		System.out.print("1부터 100까지 숫자를 입력해주세요. : ");
 //		helNum = sc.nextInt();
-//		MQ.enterHello(helNum);
+//		mq.enterHello(helNum);
 		
 		// 3번
 //		int textNum = 0;
@@ -30,7 +30,7 @@ public class MethodQuizEx {
 //		String tText = "";
 //		System.out.print("텍스트를 입력하세요 : ");
 //		tText = sc.nextLine();
-//		MQ.enterText(textNum, tText);
+//		mq.enterText(textNum, tText);
 		
 		// ========================
 		
@@ -38,13 +38,13 @@ public class MethodQuizEx {
 //		int[] res = new int[5];
 		
 		// 4-1번
-//		MQ.print(arr);
+//		mq.print(arr);
 //		
 //		// 4-2번
-//		MQ.mul10(arr);
+//		mq.mul10(arr);
 //		
 //		// 4-3번
-//		MQ.mul10v2(arr);
+//		mq.mul10v2(arr);
 	
 	}
 }
