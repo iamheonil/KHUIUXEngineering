@@ -10,9 +10,9 @@ public class Execute {
 		
 		ss.insertScore(); //국영수 점수 입력
 		
-		ss.calcSum();
-
-		ss.calcAvg();
+//		ss.calcSum();
+//
+//		ss.calcAvg();
 		
 		ss.printStu(); //학생 정보 출력
 		

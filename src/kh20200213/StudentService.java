@@ -44,6 +44,8 @@ public class StudentService {
 		System.out.println("국어점수 : " + stu.getKor());
 		System.out.println("영어점수 : " + stu.getEng());
 		System.out.println("수학점수 : " + stu.getMath());
+		calcSum();
+		calcAvg();
 		System.out.println("총합 : " + stu.getSum());
 		System.out.println("평균점수 : " + stu.getAvg());
 		
