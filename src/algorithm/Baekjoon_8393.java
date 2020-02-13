@@ -8,7 +8,7 @@ public class Baekjoon_8393 {
 //		n이 주어졌을 때, 1부터 n까지 합을 구하는 프로그램을 작성하시오.
 		
 		Scanner sc = new Scanner(System.in);
-		 
+		
 		System.out.print("n을 입력하세요 : ");
 		int n = sc.nextInt();
 		
