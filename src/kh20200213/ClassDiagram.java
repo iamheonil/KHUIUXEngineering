@@ -8,23 +8,23 @@ public class ClassDiagram {
 		
 //======================================================================
 //	|===========================|	- 접근제한자 표현 기호
-//	|							|	- + : public
+//	|                           |	- + : public
 //	|	 	클래스 이름			|	- # : protected
-//	|							|	- ~ : default
+//	|                           |	- ~ : default
 //  |===========================|	- - : private
-//	|							|
-//	|							|	멤버필드 표기 예시
-//	|							|	private String name	=> - name : String
-//	|							|	public int num;		=> + num : int
+//	|                           |
+//	|                           |	멤버필드 표기 예시
+//	|                           |	private String name	=> - name : String
+//	|                           |	public int num;		=> + num : int
 //	|		멤버   필드			|	double height		=> ~ height : double
-//	|							|
-//	|							|	멤버 메소드 표기 예시
-//	|							| 	public String getName() { }					=> + getName() : String	
-//	|							|	private double display(int n1, int n2) { }	=> - display(int, int) : double
+//	|                           |
+//	|                           |	멤버 메소드 표기 예시
+//	|                           | 	public String getName() { }					=> + getName() : String	
+//	|                           |	private double display(int n1, int n2) { }	=> - display(int, int) : double
 //  |===========================|
-//	|							|	- 스테레오 타입, Stereotype
-//	|		멤버 메소드			|		: 특수한 기능을 수행함을 표현하는것.
-//	|							|	- <<Override>> 처럼 <<기능>> 로 표현한다. 주석처럼 사용한다.
+//	|                           |	- 스테레오 타입, Stereotype
+//	|		멤버 메소드			|	- 특수한 기능을 수행함을 표현하는것.
+//	|                           |	- <<Override>> 처럼 <<기능>> 로 표현한다. 주석처럼 사용한다.
 //  |===========================| Class Diagram
 //======================================================================
 
