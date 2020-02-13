@@ -12,12 +12,12 @@ public class ClassDiagram {
 //	|	 	클래스 이름			|	- # : protected
 //	|							|	- ~ : default
 //  |===========================|	- - : private
-//	|							|	
+//	|							|
 //	|							|	멤버필드 표기 예시
 //	|							|	private String name	=> - name : String
 //	|							|	public int num;		=> + num : int
 //	|		멤버   필드			|	double height		=> ~ height : double
-//	|							|	
+//	|							|
 //	|							|	멤버 메소드 표기 예시
 //	|							| 	public String getName() { }					=> + getName() : String	
 //	|							|	private double display(int n1, int n2) { }	=> - display(int, int) : double
