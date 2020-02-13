@@ -6,7 +6,7 @@ public class StudentService {
 
 	private Student stu = new Student();
 	private Scanner input = new Scanner(System.in);
-	// 여기 초기화 해줘야함
+	// 여기 초기화 해줘야한다. 안하면 NullPointException
 		
 	public StudentService() {
 
