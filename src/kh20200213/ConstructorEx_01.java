@@ -15,7 +15,7 @@ class Constructor01 {
 		num1 = 500;
 		num2 = 600;
 	}
-
+	
 	// 매개변수가 있는 생성자
 	public Constructor01(int num1, int num2) {
 		System.out.println("매개변수 있는 생성자 호출됨");
