@@ -62,7 +62,7 @@ public class CarEx {
 
 		System.out.println("----------");
 
-		car.setModel("K7");
+		car.setModel("¸ð´×");
 		car.setColor("White");
 
 		System.out.println(car.getModel());
