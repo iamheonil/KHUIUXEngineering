@@ -3,7 +3,7 @@ package kh20200209;
 public class Random {
 	public static void main(String[] args) {
 
-		int num = 45;
+//		int num = 45;
 
 		int[] randomArr = new int[6];
 
