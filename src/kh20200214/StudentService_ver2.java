@@ -82,7 +82,6 @@ public class StudentService_ver2 {
 		stu.setMath(sc.nextInt());
 		calcSum(stu);
 		calcAvg(stu);
-
 	}
 
 	public void insertScoreAll() {
