@@ -46,30 +46,30 @@ public class LoopQuiz {
 		// 최소공배수 = 공배수 중에서 가장 작은 정수
 		// 최대공약수 = 공약수 중에서 절대치가 가장 큰 수
 
-//		int val1, val2;
-//		int r = 1;
-//		int LCM;
-//
-//		System.out.print("첫번째 수를 입력하시오 : ");
-//		val1 = sc.nextInt();
-//		System.out.print("두번째 수를 입력하시오 : ");
-//		val2 = sc.nextInt();
-//
-//		int tmp1 = val1, tmp2 = val2; 	// 최소공배수를 구하기 위해 입력받은 값 저장
-//		if (val1 < val2) {				// 2번째 입력수가 클 경우 큰수를 val1으로 변경
-//			val1 = tmp2;
-//			val2 = tmp1;
-//		}
-//
-//		while (r > 0) {					// GCD 구하기
-//			r = val1 % val2;
-//			val1 = val2;
-//			val2 = r;
-//		}
-//		
-//		LCM = tmp1 * tmp2 / val1;		// LCM 구하기
-//		System.out.println("GCD(최대공약수) : " + val1);
-//		System.out.println("LCM(최소공배수) : " + LCM);
+		int val1, val2;
+		int r = 1;
+		int LCM;
+
+		System.out.print("첫번째 수를 입력하시오 : ");
+		val1 = sc.nextInt();
+		System.out.print("두번째 수를 입력하시오 : ");
+		val2 = sc.nextInt();
+
+		int tmp1 = val1, tmp2 = val2; 	// 최소공배수를 구하기 위해 입력받은 값 저장
+		if (val1 < val2) {				// 2번째 입력수가 클 경우 큰수를 val1으로 변경
+			val1 = tmp2;
+			val2 = tmp1;
+		}
+
+		while (r > 0) {					// GCD 구하기
+			r = val1 % val2;
+			val1 = val2;
+			val2 = r;
+		}
+		
+		LCM = tmp1 * tmp2 / val1;		// LCM 구하기
+		System.out.println("GCD(최대공약수) : " + val1);
+		System.out.println("LCM(최소공배수) : " + LCM);
 
 		// 1에서부터 입력된 어떤 수까지 내에 있는 소수를
 		// 찾는 프로그램을 작성하라.
