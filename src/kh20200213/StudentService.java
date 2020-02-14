@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class StudentService {
 
-	private Student stu = new Student();				// 여기 객체 초기화 해줘야함
-	private Scanner input = new Scanner(System.in);		// 맴버필드 초기화 해주는 과정
+	private Student stu = new Student();
+	private Scanner input = new Scanner(System.in);
+	// 여기 초기화 해줘야한다. 안하면 NullPointException
 
 		
 	public StudentService() { 
@@ -44,6 +45,8 @@ public class StudentService {
 	public void printStu() {
 		System.out.println();
 		System.out.println();
+		calcSum(stu);
+		calcAvg(stu);
 		System.out.println("\t이름 : " + stu.getName());
 		System.out.println("\t나이 : " + stu.getAge());
 		System.out.println("\t국어점수 : " + stu.getKor());
