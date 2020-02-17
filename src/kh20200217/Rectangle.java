@@ -6,10 +6,11 @@ public class Rectangle extends Point {
 
 	private int width;
 	private int height;
-	Scanner sc = new Scanner(System.in);
+//	Scanner sc = new Scanner(System.in);
+	Point p1 = new Point();
 	
 	public Rectangle() {
-		
+		this(0, 0, 0, 0);
 	}
 	
 	public Rectangle(int x, int y, int width, int height) {
@@ -17,9 +18,7 @@ public class Rectangle extends Point {
 		this.width = width;
 		this.height = height;
 	}
-	
-	
-	
+		
 	public int getWidth() {
 		return width;
 	}
@@ -45,11 +44,11 @@ public class Rectangle extends Point {
 		double rec = width * height;
 		double rec2 = 2 * (width + height);
 		
-//		System.out.println("사각형의 X좌표 : ");
-//		System.out.println("사각형의 Y좌표 : ");
+		System.out.print("사각형의 좌표 : ");
+		super.draw();
 		System.out.print("네모의 면적 :");
-		System.out.printf("%10.1f\n", rec);
+		System.out.printf("%.1f\n", rec);
 		System.out.print("네모의 둘레 :");
-		System.out.printf("%10.1f\n", rec2);
+		System.out.printf("%.1f\n", rec2);
 	}
 }

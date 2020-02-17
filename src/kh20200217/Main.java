@@ -15,7 +15,7 @@ public class Main {
 		Point[] poiArr = new Point[5];
 		
 						// x, y 쓰지 않는 값, Radius 쓰는 값
-		cirArr[0] = new Circle(10, 5, 3);
+		cirArr[0] = new Circle(6, 8, 6);
 		cirArr[1] = new Circle(60, 6, 5);
 		cirArr[2] = new Circle(5, 7, 8);
 		
@@ -24,10 +24,10 @@ public class Main {
 		recArr[1] = new Rectangle(6, 2, 20, 5);
 		recArr[2] = new Rectangle(7, 2, 3, 3);
 		
-		poiArr[0] = new Rectangle(5, 2, 10, 5);
-		poiArr[1] = new Circle(5, 2, 100);
-		poiArr[2] = new Rectangle(5, 2, 10, 5);
-		poiArr[3] = new Circle(5, 2, 15);
+		poiArr[0] = new Rectangle(8, 2, 13, 5);
+		poiArr[1] = new Circle(9, 2, 100);
+		poiArr[2] = new Rectangle(6, 2, 10, 5);
+		poiArr[3] = new Circle(4, 2, 15);
 		poiArr[4] = new Circle(5, 2, 10);
 
 		for(int i = 0; i < 3; i++) {

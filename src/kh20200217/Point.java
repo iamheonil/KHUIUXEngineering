@@ -6,12 +6,13 @@ public class Point {
 	protected int y;
 	
 	public Point() {
-		
+		this(0, 0);	// 기본값
+					// 아래의 set X, Y가 아무값도 없을때 0,0으로
 	}
 	
 	public Point(int x, int y) {
-		x = 3;
-		y = 4;
+		setX(x);
+		setY(y);
 	}
 
 	
@@ -32,8 +33,7 @@ public class Point {
 	}
 	
 	public void draw() {
-		System.out.println("X의 좌표값 : " + x);
-		System.out.println("Y의 좌표값 : " + y);
+		System.out.println("(" + x + ", " + y + ")");
 	}
 	
 }
