@@ -50,10 +50,21 @@ public class ProductEx {
 		
 		p.display();
 		
-//		p.sell(prod1);
+		p.sell(prod1);
 //		p.sell(prod2);
 //		p.sell( new Computer("SAMSUNG", 3000));
 //		p.sell(prod2);
+		
+		
+		// 추상클래스 abstract 는 객체 생성 불가.
+//		Product p = new Product("data", 100);
+
+		// 객체변수는 가능,
+		Product p1;
+		Product p2;
+		
+		p1 = new Tv("TV!", 150);
+		p2 = new Computer("COMPUTER", 250);
 		
 	}
 }

@@ -83,12 +83,13 @@ public class Person {
 	
 	public void sell(Product prod) {
 		this.prod = prod;
-		money = getMoney();
 		
-		System.out.println(prod.getModel());
-				
+		System.out.println();
+		System.out.println("현재 소지금은 : " + money);
+		System.out.println("판매하시려는 상품은");
+		System.out.println("모델명 : " + prod.getModel() + "\n감정가 : " + prod.getPrice());
+		
 	}
-	
 
 	public String getName() {
 		return name;

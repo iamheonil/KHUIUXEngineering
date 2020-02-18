@@ -1,6 +1,6 @@
 package kh20200218;
 
-public class Product {
+public abstract class Product {
 
 //	java07_inherit.product
 //	class Product
@@ -34,11 +34,10 @@ public class Product {
 		setPrice(price);
 	}
 	
-	public void out() {
+	public abstract void out();
 	
 //		System.out.println("¸ðµ¨¸í : " + model);
 //		System.out.println("°¡°Ý : " + price);
-	}
 
 	public String getModel() {
 		return model;
