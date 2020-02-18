@@ -85,7 +85,11 @@ public class Person {
 		this.prod = prod;
 		
 		System.out.println();
+		for (int i = 0; i < prodArr.length; i++) {
+		System.out.println("현재 소지한 물건은 : " + prodArr[i].getModel());
+		}
 		System.out.println("현재 소지금은 : " + money);
+		System.out.println();
 		System.out.println("판매하시려는 상품은");
 		System.out.println("모델명 : " + prod.getModel() + "\n감정가 : " + prod.getPrice());
 		

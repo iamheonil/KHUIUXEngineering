@@ -43,11 +43,19 @@ public class Abstract {
 	//			public abstract void out();
 	//		}
 	//
+	//	秦搬规过
+	//		1.
 	//		class Child extends Parent {
+	//			@Override
+	//			public void out() {
+	//			}
+	//		}
+	//	
+	//	秦搬规过
+	//		2.
+	//		abstract class Children extends Parent {
 	//
 	//		}
-	//
-	//
 	//
 	
 	
