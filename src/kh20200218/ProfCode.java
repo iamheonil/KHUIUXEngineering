@@ -2,7 +2,7 @@ package kh20200218;
 
 import java.util.Scanner;
 
-public class Person_ver2 {
+public class ProfCode {
 	private static final int LEN = 3;
 	
 	private String name;
@@ -13,7 +13,7 @@ public class Person_ver2 {
 	private int cnt; //구매한 물건 개수
 	
 	
-	public Person_ver2(String name, int money) {
+	public ProfCode(String name, int money) {
 		this.name = name;
 		this.money = money;
 	}

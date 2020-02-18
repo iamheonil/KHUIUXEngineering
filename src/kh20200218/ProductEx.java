@@ -36,19 +36,19 @@ public class ProductEx {
 //		System.out.println(count + "개 물건 구입");
 				
 		System.out.println("---Person------------");
-		Person p = new Person("Alice", 10000);
+		Person p = new Person("헌일", 10000);
 		
-		Product prod1 = new Tv("LG", 500);
-		Product prod2 = new Computer("Asus", 1000);
-		Product prod3 = new Tv("LG", 2000);
-		Product prod4 = new Tv("DAMWON", 3000);
+		Product prod1 = new Tv("SAMSUNG", 3500);
+		Product prod2 = new Computer("EVGA", 1000);
+		Product prod3 = new Tv("BenQ", 2000);
+		Product prod4 = new Tv("HP", 3000);
 		
 		p.buy(prod1);
 		p.buy(prod2);
 		p.buy(prod3);		
 		p.buy(prod4);	
 		
-		p.display();
+//		p.display();
 		
 		p.sell(prod1);
 //		p.sell(prod2);

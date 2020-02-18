@@ -73,14 +73,11 @@ public class Person {
 	}
 	
 	public void display() {
-		for (int i = 0; i < prodArr.length; i++) {
-//			System.out.print(count);
-			
-			System.out.print(prodArr[i].getModel() + " = ");
-			System.out.println(prodArr[i].getPrice());
+		for(int i = 0; i < 3; i++) {
+			System.out.print(prodArr[i].getModel() + ", ");
 		}
 	}
-	
+		
 	public void sell(Product prod) {
 		this.prod = prod;
 		
@@ -91,7 +88,35 @@ public class Person {
 		System.out.println("현재 소지금은 : " + money);
 		System.out.println();
 		System.out.println("판매하시려는 상품은");
-		System.out.println("모델명 : " + prod.getModel() + "\n감정가 : " + prod.getPrice());
+		System.out.println("모델명 : " + prod.getModel() + "\n상품가격 : " + prod.getPrice());
+		System.out.println();
+		System.out.println("잠시만 기다려주세요..");
+			
+		if (prodArr[0] == null) {
+			System.out.println("상품을 보유하고 있지 않아 판매하지 못했습니다.");
+		} else {
+			System.out.println();
+			System.out.println("상품 판매가 완료 되었습니다.");
+			money += this.prodArr[0].getPrice();
+//			prodArr[0] = null;
+			
+//			
+//			for (int i = 0; i < prodArr.length; i++) {
+//				
+//			}
+			System.out.println();
+			System.out.println(name + " 님이 " + prodArr[0].getPrice() + " 원으로 " + prodArr[0].getModel() +" 모델을 판매하셨습니다.");
+			System.out.println("보유금액은 : " + (money = money + prodArr[0].getPrice()) + "원 입니다." );
+			System.out.println();
+			for(int i = 0; i < count - 1; i++) {
+				prodArr[i] = prodArr[i + 1];
+			}
+			prodArr[count-1] = null;
+			count--;
+			System.out.print("현재 소지한 물건은 : ");
+			display();
+		}
+		
 		
 	}
 
