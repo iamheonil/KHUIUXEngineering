@@ -97,7 +97,8 @@ public class Person {
 		} else {
 			System.out.println();
 			System.out.println("상품 판매가 완료 되었습니다.");
-			money += this.prodArr[0].getPrice();
+//			System.out.println(money);
+//			money = money + this.prodArr[0].getPrice();
 //			prodArr[0] = null;
 			
 //			
@@ -116,7 +117,6 @@ public class Person {
 			System.out.print("현재 소지한 물건은 : ");
 			display();
 		}
-		
 		
 	}
 

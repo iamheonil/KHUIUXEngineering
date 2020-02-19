@@ -1,4 +1,4 @@
-package kh20200219;
+package kh20200219_home;
 
 class Person { 
 	
@@ -19,8 +19,7 @@ public class Practice {
 		Person p1 = new Person();
 		Child c1 = new Child();
 		Person child = new Child();
-		 
-		
+				
 		p1.display();
 		c1.display();
 		child.display();

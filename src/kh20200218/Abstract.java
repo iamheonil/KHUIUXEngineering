@@ -56,11 +56,6 @@ public class Abstract {
 	//		abstract class Children extends Parent {
 	//
 	//		}
-	//
-	
-	
-	
-	
 	
 	// 메소드를 호출하면 동적 바인딩.
 	// 
