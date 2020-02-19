@@ -1,6 +1,6 @@
 package kh20200219_quiz2;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class ArrayEx {
 	public static void main(String[] args) {
@@ -32,16 +32,7 @@ public class ArrayEx {
 		System.out.println( ar.find("Cherry") ); // 1
 		
 		System.out.println("----------");
+//		ar.print();
 
 	}
 }
-
-
-
-
-
-
-
-
-
-

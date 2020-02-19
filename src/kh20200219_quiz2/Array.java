@@ -29,12 +29,12 @@ public class Array implements ArrayAction {
 		if(arr[i] == element) {
 			arr[i] = null;
 			idx--;
-			arr[i] = arr[i+1];
+			arr[i] = arr[i + 1];
 			arr[i + 1] = null;
 			} else {
+				}
 			}
 		}
-	}
 
 	// idx위치의 element를 반환
 	@Override
