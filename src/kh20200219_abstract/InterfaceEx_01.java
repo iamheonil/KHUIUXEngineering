@@ -6,7 +6,6 @@ abstract class TestClass {
 
 }
 
-
 // 상수만 모아놓을때, 추상 메소드만 모아 기능 제공할 때 인터페이스를 사용한다. (일종의 클래스)
 // 개발중인 메소드의 형식을 강제하기 위해 사용.
 // 멤버필드는 public static final 이 기본적으로, 메소드는 abstract 가 기본으로 적용된다.
@@ -31,6 +30,8 @@ interface TestInterface {
 }
 
 
+// 클래스끼리의 다중상속 절대 금지, 하지만 인터페이스끼리의 다중 상속은 가능하다.
+// 인터페이스 다중 구현을 하는것도 가능하다.
 class Test extends TestClass implements TestInterface {
 	// 순서는 클래스 - 상속(extends) - 구현(implements) 순으로 작성
 	//	- 용어는 다르지만 상속과 거의 흡사하다.
