@@ -17,7 +17,7 @@ public class ArrayEx {
 		ar.print(); // Apple, Banana, Cherry
 		System.out.println("----------");
 		
-		System.out.println("Remove");
+//		System.out.println("Remove");
 		ar.remove("Banana");
 		ar.print(); // Apple, Cherry
 		System.out.println("----------");

@@ -18,9 +18,3 @@ public interface ArrayAction {
 	// 모든 element 출력
 	public void print();
 }
-
-
-
-
-
-
