@@ -8,7 +8,7 @@ public class RandomQuiz2 {
 
 		int user;
 		int com;
-		int count = 0;
+		int count = 1;
 
 		Random ran = new Random();
 		Scanner sc = new Scanner(System.in);
@@ -16,27 +16,31 @@ public class RandomQuiz2 {
 		do {
 			System.out.print("몇 번 부를까요? : ");
 			user = sc.nextInt();
-			
-			if (user == 1) {
-				count++;
-			} else if (user == 2) {
-				count++;
-				count++;
-			} else if (user == 3) {
-				count++;
-				count++;
-				count++;				
-			} else {
-				System.out.println("부정행위");
-				return;
-			}
-		} while (count < 31);
-		System.out.println("종료!");
-		
+			com = ran.nextInt(3) + 1;
 
+			if (user < 4) {
+				for (int i = 1; i <= user; i++) {
+//					count = i;
+					System.out.println("유저 : " + count++);
+					if (count > 31) {
+						System.out.println("당신의 패배입니다.");
+						return;
+					}
+				}
+				for (int j = 1; j <= com; j++) {
+					System.out.println("컴퓨터 : " + count++);
+					if (count > 31) {
+						System.out.println("당신의 승리입니다.");
+						break;
+					}
+				}
+			}
+		} while (count <= 31);
+		System.out.println("종료!");
 
 	} // Method End
 } // Class End
+
 
 
 //do {
