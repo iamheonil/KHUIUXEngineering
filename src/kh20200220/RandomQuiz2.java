@@ -18,9 +18,10 @@ public class RandomQuiz2 {
 			user = sc.nextInt();
 			com = ran.nextInt(3) + 1;
 
-			if (user < 4) {
+			if (user == 0) {
+				System.out.println("숫자 다시 입력허세요.");
+			} else if (user < 4) {
 				for (int i = 1; i <= user; i++) {
-//					count = i;
 					System.out.println("유저 : " + count++);
 					if (count > 31) {
 						System.out.println("당신의 패배입니다.");
@@ -31,17 +32,16 @@ public class RandomQuiz2 {
 					System.out.println("컴퓨터 : " + count++);
 					if (count > 31) {
 						System.out.println("당신의 승리입니다.");
-						break;
+						return;
 					}
 				}
+			} else {
+				System.out.println("숫자 다시 입력허세요.");
 			}
 		} while (count <= 31);
-		System.out.println("종료!");
 
 	} // Method End
 } // Class End
-
-
 
 //do {
 //System.out.print("한번 두번 세번 부를 값을 입력하세요. : ");
