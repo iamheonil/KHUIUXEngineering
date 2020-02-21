@@ -20,7 +20,7 @@ public class StringQuiz {
 		char ch = "Hello Java".charAt(6);
 		System.out.println(ch);
 		
-		System.out.println("\n---concat-------");
+		System.out.println("\n---concat-------");	
 		// str1에 ", HIHIHI" 라는 문자열 추가하고 출력
 		System.out.println(str1.concat(", HIHIHI"));
 		
