@@ -26,8 +26,8 @@ public class StringQuiz {
 		
 		System.out.println("\n---replace-------");
 		// str1의 'A'을 'a'로 변환
-		System.out.println(str1.replace("A", "a"));
-				
+		System.out.println(str1.replace('A', 'a'));
+		
 		System.out.println("\n---replace-------");
 		// str1에서 "ple"를 "PLE"로 변환
 		System.out.println(str1.replace("ple", "PLE"));
