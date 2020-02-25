@@ -25,7 +25,7 @@ public class RandomQuiz {
 		comRan = (int) (Math.random() * 50 + 1);
 		
 		for (int i = 0; i < 7; i++) {
-			System.out.println("Up & Down : ");
+			System.out.print("Up & Down : ");
 			human = sc.nextInt();
 			if (human == comRan) {
 				System.out.println("맞췄습니다! 게임을 종료합니다.");
@@ -33,11 +33,11 @@ public class RandomQuiz {
 			} else if (human > comRan) {
 				System.out.println("당신의 숫자가 큽니다");
 				cnt++;
-				System.out.println(cnt);
+//				System.out.println(cnt);
 			} else if (human < comRan) {
 				System.out.println("당신의 숫자가 작습니다");
 				cnt++;
-				System.out.println(cnt);
+//				System.out.println(cnt);
 			}
 			if (cnt == 7) {
 				System.out.println("7번 안에 맞추지 못하여 컴퓨터의 승리로 게임을 종료합니다.");
