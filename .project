@@ -14,11 +14,4 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>src/Collection.jpg</name>
-			<type>1</type>
-			<location>C:/Users/user2/Desktop/Collection.jpg</location>
-		</link>
-	</linkedResources>
 </projectDescription>
