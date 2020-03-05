@@ -1,5 +1,7 @@
 package kh20200209;
 
+import java.util.Arrays;
+
 public class Random {
 	public static void main(String[] args) {
 
@@ -14,8 +16,11 @@ public class Random {
 
 			randomArr[i] = (int) (Math.random() * 45);
 
-			System.out.print(randomArr[i] + " ");
-
+		}
+		Arrays.sort(randomArr);
+		for (int i = 0; i < randomArr.length; i++) {
+			System.out.print(randomArr[i] + " ");	
 		}
 	}
+	
 }
