@@ -115,8 +115,8 @@ public class Collection01_ArrayList {
 			System.out.println();
 		}
 		
-		System.out.println(l);
-		System.out.println(ll);
+		System.out.println(l);	// null
+		System.out.println(ll);	// [ ]
 		
 		
 		System.out.println("모든 요소 출력하기");
