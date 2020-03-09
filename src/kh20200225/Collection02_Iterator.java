@@ -16,7 +16,7 @@ public class Collection02_Iterator {
 		iter = list.iterator();	// 리스트의 iterator 생성하기.
 		
 		while(iter.hasNext()) {
-			System.out.println(iter.next());
+			System.out.print(iter.next() + " ");
 		}
 		// Iterator 의 주요 메소드
 		// Boolean hasNext() : 다음 요소의 존재여부, true / false 로 반환

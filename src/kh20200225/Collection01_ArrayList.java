@@ -136,7 +136,7 @@ public class Collection01_ArrayList {
 		System.out.println("foreach문 이용 출력");	// 3. foreach문을 이용한 출력
 		for (Object elements : list) {
 			System.out.print(elements + " ");
-			System.out.println();
+//			System.out.println();
 		}
 		
 		System.out.println();
