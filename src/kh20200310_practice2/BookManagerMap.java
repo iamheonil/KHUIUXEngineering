@@ -49,7 +49,7 @@ public class BookManagerMap {
 		
 		booksMap.put(book.getbNo(), book);
 //		booksMap.put(new Book("10002", 3, "ø¿øÏ ≥ π´ «œ±‚ Ω»æÓ", "±Ë«Â¿œ"), book);
-
+		return;
 	}
 
 	public void removeBook(String key) {
@@ -58,9 +58,12 @@ public class BookManagerMap {
 	}
 
 	public String searchBook(String bTitle) {
+		Set keys = booksMap.keySet();
+		Iterator iter = keys.iterator();
 		
-		Set entrySet = booksMap.entrySet(); // Entry(key-valueΩ÷)µÈ¿ª Set¿∏∑Œ √ﬂ√‚
-		System.out.println("entrySet : " + entrySet);
+		Object key = iter.next(); // Key ≤®≥ª±‚
+		System.out.println(booksMap.get(bTitle));
+
 		
 		return bTitle;
 		

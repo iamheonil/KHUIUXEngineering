@@ -60,7 +60,7 @@ public class Book {
 
 	@Override
 	public String toString() {
-		return bNo + " -> " + "[책 번호 = " + bNo + ", 카테고리 = " + category + ", 책 제목 = " + title + ", 글쓴이 = " + author + "]";
+		return bNo + "번의 책 정보 : " + "카테고리 = " + category + ", 책 제목 = " + title + ", 글쓴이 = " + author + "]";
 		
 	}
 
