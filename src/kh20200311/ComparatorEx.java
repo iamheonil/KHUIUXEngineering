@@ -8,9 +8,9 @@ import java.util.List;
 public class ComparatorEx {
 	public static void main(String[] args) {
 
-		Person p1 = new Person(2, "Alice", "Swimming");
-		Person p2 = new Person(1, "Bob", "Soccer");
-		Person p3 = new Person(3, "Park", "Baseball");
+		Person p1 = new Person(2, "Park", "Baseball");
+		Person p2 = new Person(1, "Bob", "Computer Games");
+		Person p3 = new Person(3, "Alice", "Aero Control");
 
 		List<Person> list = new ArrayList<>();
 
@@ -52,16 +52,41 @@ public class ComparatorEx {
 //				}
 
 				// 이름 기준 오름차순
-				if (o1.getName().compareTo(o2.getName()) < 0) {	// 왼쪽이 작은경우, 정렬시 맨 앞으로
-					return -1;
-				} else if (o1.getName().compareTo(o2.getName()) > 0) {	// 왼쪽이 클 경우, 정렬시 맨 뒤로
+//				if (o1.getName().compareTo(o2.getName()) < 0) {	// 왼쪽이 작은경우, 정렬시 맨 앞으로
+//					return -1;
+//				} else if (o1.getName().compareTo(o2.getName()) > 0) {	// 왼쪽이 클 경우, 정렬시 맨 뒤로
+//					return 1;
+//				} else {
+//					return 0;
+//				}
+
+				// 이름 기준 내림차순
+//				if (o1.getName().compareTo(o2.getName()) < 0) {	// 왼쪽이 작은경우, 정렬시 맨 앞으로
+//					return 1;
+//				} else if (o1.getName().compareTo(o2.getName()) > 0) {	// 왼쪽이 클 경우, 정렬시 맨 뒤로
+//					return -1;
+//				} else {
+//					return 0;
+//				}
+				
+				// 취미 기준 오름차순
+//				if ( o1.getHobby().compareTo(o2.getHobby() ) < 0) {	// 왼쪽이 작은경우, 정렬시 맨 앞으로
+//					return -1;
+//				} else if ( o1.getHobby().compareTo(o2.getHobby()) > 0 ) {	// 왼쪽이 클 경우, 정렬시 맨 뒤로
+//					return 1;
+//				} else {
+//					return 0;
+//				}
+				
+				// 취미 기준 내림차순
+				if ( o1.getHobby().compareTo(o2.getHobby() ) < 0) {	// 왼쪽이 작은경우, 정렬시 맨 앞으로
 					return 1;
+				} else if ( o1.getHobby().compareTo(o2.getHobby() ) > 0) {	// 왼쪽이 클 경우, 정렬시 맨 뒤로
+					return -1;
 				} else {
 					return 0;
 				}
-
-				// 이름 기준 내림차순
-
+				
 			}
 		};
 
