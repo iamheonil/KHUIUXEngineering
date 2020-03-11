@@ -12,6 +12,6 @@ public class Generic_Extends {
 	
 	public static <T extends Number> void print(T t) {
 		System.out.println(t);
-	}
 	
+	}
 }
