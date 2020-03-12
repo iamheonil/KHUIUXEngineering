@@ -92,7 +92,7 @@ public class ComparatorEx {
 
 		Collections.sort(list, comp);
 		System.out.println("\nComparator ³ª¿­ ÈÄ");
-		for (int i = 0; i < list.size(); i++) {
+		for (int i = 0; i < list.size(); i++) { 
 			System.out.println(list.get(i));
 
 		}
