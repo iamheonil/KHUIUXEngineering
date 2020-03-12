@@ -3,28 +3,27 @@ package kh20200312;
 public class Exception03_Try {
 	public static void main(String[] args) {
 
-		System.out.println("\n와일문 가즈앙\n");
-
-		int[] arr = new int[5];
-		int i = 0;
-
-		try {
-			while (true) { // 무한루프
-				arr[i] = i + 1;
-
-				System.out.println(arr[i]);
-				System.out.println(i + "번째 완료");
-
-				i++;
-			}
-		} catch (ArrayIndexOutOfBoundsException e) { // Exception 으로 try catch 문 사용이 가능하지만 보다 안전하게 Exception 명을 써준다.
-			// TODO: handle exception
-			System.out.println("!! 예외 발생 !!");
-			
-			e.printStackTrace();	// 예외의 정보를 출력
+		int num1 = 7;
+		int num2 = 0;
+		
+		
+		// 고전적인 예외처리 방법
+		if( num2 != 0 ) {	// num2 가 0이 아니라면!
+			System.out.println(num1 / num2);
+		} else {	// num2 가 0이라면 예외
+			System.out.println("나눔수가 0이므로 예외");
 		}
-
-		System.out.println("\n프로그램이 정상적으로 종료되었습니다.");
-	
+		
+		// try - catch 문
+		try {
+			System.out.println(num1 / num2);	
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace(); // 예외정보 확인.
+			System.out.println("나눔수가 0이므로 예외");
+		}
+		
+		System.out.println("시스템 정상 종료");
+		
 	}
 }
