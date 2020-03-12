@@ -1,6 +1,6 @@
 package kh20200312;
 
-public class Exception06_Throws {
+public class Exception06_Throw {
 	public static void main(String[] args) {
 
 		Exception e = new NullPointerException(); // 예외 객체 생성
