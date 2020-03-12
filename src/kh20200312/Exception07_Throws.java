@@ -9,9 +9,6 @@ class ThrowTest {
 		}
 		
 	}
-
-	
-	
 }
 
 public class Exception07_Throws {
