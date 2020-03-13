@@ -1,0 +1,5 @@
+ + 파일 복사2, File Copy2
+  - Lower.txt 파일을 Upper.txt로 복사한다
+  
+  - Lower.txt에서 읽은 문자가 소문자라면 대문자로 변환한다 
+
