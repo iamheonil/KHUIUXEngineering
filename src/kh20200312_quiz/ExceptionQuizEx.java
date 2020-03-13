@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class ExceptionQuizEx {
 	public static void main(String[] args) {
 
-		quiz1();
-//		quiz2();
+//		quiz1();
+		quiz2();
 
 	}
 
