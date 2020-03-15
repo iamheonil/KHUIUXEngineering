@@ -40,7 +40,11 @@ public class QuizEx_01_Second {
 				total += len;
 			}
 
-		} catch (Exception e) {
+		} catch (FileNotFoundException e) {
+			System.err.println("File Not Found Exception!");
+			System.err.println("경로가 아닌거 같은데요?!");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			try {
