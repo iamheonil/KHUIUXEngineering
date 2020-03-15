@@ -9,9 +9,9 @@ public class QuizEx_01 {
 	public static void main(String[] args) {
 
 		// 원본
-		File sTxt = new File("./src/kh20200313/quiz/", "Source.txt");
+		File sTxt = new File("./src/kh202003/kh20200313/quiz/", "Source.txt");
 		// 복사본
-		File dTxt = new File("./src/kh20200313/quiz/", "Dest.txt");
+		File dTxt = new File("./src/kh202003/kh20200313/quiz/", "Dest.txt");
 
 //		System.out.println(sTxt.exists());
 //		System.out.println(dTxt.exists());
@@ -32,6 +32,7 @@ public class QuizEx_01 {
 				sb.append(new String(buf, 0, len));
 
 				total += len;
+				in += len;
 			}
 
 			len = fis.read(buf);
@@ -39,11 +40,13 @@ public class QuizEx_01 {
 //			fos.write(buf, 0, len);
 //			fos.flush();
 			System.out.println(total);
-			fos = new FileOutputStream(dTxt, true);
+
+			fos = new FileOutputStream(dTxt, false);
 			while ((in = fis.read(buf)) != -1) {
 				fos.write(buf, 0, in);
 			}
 			fos.flush();
+
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
