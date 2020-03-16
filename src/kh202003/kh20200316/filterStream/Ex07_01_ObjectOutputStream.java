@@ -15,8 +15,8 @@ class Point implements Serializable {
 
 	public Point(int x, int y) {
 		super();
-		this.x = x;
-		this.y = y;
+		setX(x);
+		setY(y);
 	}
 
 	@Override
