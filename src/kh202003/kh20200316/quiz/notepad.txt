@@ -1,0 +1,10 @@
+ + 문자기반스트림, 버퍼이용스트림 클래스를 사용하시오.
+
+ - 기능 클래스명 : java13_io.quiz.MyNote.java
+ - Field : - sc:Scanner	//초기화 생성함
+ - Constructor : default
+ - Method
+	+ fileSave():void
+	+ fileOpen():void
+	
+	// 세이브, 오픈 먼저 만들고 Edit 구현
