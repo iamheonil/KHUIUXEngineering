@@ -20,13 +20,13 @@ public class Practice {
 		int len = -1;
 
 		try {
-			
+
 			fis = new FileInputStream(file);
 			fos = new FileOutputStream(cFile);
 
 			while ((len = fis.read(buf)) != -1) {
 				fos.write(buf, 0, len);
-				
+
 				int str = 123123123;
 				fos.write(str);
 				fos.flush();
