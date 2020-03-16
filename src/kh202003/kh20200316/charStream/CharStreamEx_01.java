@@ -31,11 +31,11 @@ public class CharStreamEx_01 {
 		try {
 			while ((len = reader.read(cbuf)) != -1) {
 				writer.write(cbuf, 0, len);
+				writer.flush();
 
 				total += len; // 입력받은 문자수
 			}
 
-			writer.flush();
 
 		} catch (IOException e) {
 			e.printStackTrace();
