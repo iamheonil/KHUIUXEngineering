@@ -10,6 +10,10 @@ import java.io.Serializable;
 
 class Point implements Serializable {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8126971205042087005L;
 	private int x;
 	private int y;
 
@@ -73,7 +77,6 @@ public class Ex07_01_ObjectOutputStream {
 					oos.close();
 				}
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
