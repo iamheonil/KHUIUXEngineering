@@ -1,0 +1,24 @@
+-------------------------
+ class Ex04_Server
+-------------------------
+ - serv : ServerSocket
+ - sock : Socket
+ - in : BufferedReader
+ - file : File
+ - out : FileWriter
+-------------------------
+1. serv 생성
+2. Listen 및 sock 생성
+3. Remote 정보 출력
+  IP정보 : InetAddress
+  Port정보 : sock
+4. in 생성
+  네트워크 입력스트림
+5. out 생성
+  파일 출력 스트림
+6. 파일 받아서 저장
+  read(char[])
+  write(char[], int, int)
+7. close() 적절히
+
+** 추가사항 : 2부터 반복

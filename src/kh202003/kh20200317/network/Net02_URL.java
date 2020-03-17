@@ -6,7 +6,7 @@ import java.net.URL;
 public class Net02_URL {
 	public static void main(String[] args) {
 
-		String javaUrl = "https://docs.oracle.com/javase/8/docs/api/java/net/URL.html";
+		String javaUrl = "https://docs.oracle.com:443/javase/8/docs/api/java/net/URL.html";
 
 		URL url = null;
 
@@ -21,6 +21,6 @@ public class Net02_URL {
 		System.out.println("포트번호 : " + url.getPort());
 		System.out.println("파일경로 : " + url.getFile());
 		System.out.println("전체 : " + url.toExternalForm());
-		
+
 	}
 }

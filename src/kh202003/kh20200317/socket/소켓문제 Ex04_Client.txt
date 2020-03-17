@@ -1,0 +1,17 @@
+-------------------------
+ class Ex04_Client
+-------------------------
+ - sock : Socket
+ - out : PrintWriter
+ - file : File
+ - in : FileReader
+-------------------------
+1. sock 생성
+2. in 생성
+  파일 입력 스트림
+3. out 생성
+  네트워크 출력스트림
+4. 파일 읽어서 보내기
+  read(char[])
+  write(char[], int, int)
+5. close() 적절히
