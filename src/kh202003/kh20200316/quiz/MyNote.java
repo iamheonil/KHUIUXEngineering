@@ -60,8 +60,14 @@ public class MyNote {
 			while ((fileContent = reader.readLine()) != null) {
 				System.out.println(fileContent);
 			}
+		} catch (FileNotFoundException e) {
+			System.out.println("파일을 찾을 수 없습니다.");
+			System.out.println("파일을 찾을 수 없습니다.");
+			System.out.println("파일을 찾을 수 없습니다.");
 		} catch (IOException e) {
-			e.printStackTrace();
+			System.out.println("입/출력이 잘못 됐습니다.");
+			System.out.println("입/출력이 잘못 됐습니다.");
+			System.out.println("입/출력이 잘못 됐습니다.");
 		} finally {
 			try {
 				if (reader != null) {
@@ -113,7 +119,6 @@ public class MyNote {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			try {
@@ -124,7 +129,6 @@ public class MyNote {
 					reader.close();
 				}
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
