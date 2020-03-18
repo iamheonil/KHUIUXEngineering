@@ -29,8 +29,8 @@ public class Ex04_Client {
 		int len = -1;
 
 		try {
-//			sock = new Socket("192.168.20.25", 10009);
-			sock = new Socket("192.168.0.2", 10009);
+			sock = new Socket("192.168.20.25", 10009);
+//			sock = new Socket("192.168.0.2", 10009);
 
 			file = new File("./src/kh202003/kh20200317/socket/result/copy.txt");
 			System.out.print(file + "을 불러왔습니다.");
