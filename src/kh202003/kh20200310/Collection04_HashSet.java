@@ -2,6 +2,7 @@ package kh202003.kh20200310;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -10,9 +11,9 @@ import java.util.TreeSet;
 public class Collection04_HashSet {
 	public static void main(String[] args) {
 		
-//		Set set = new HashSet();
+		Set set = new HashSet();
 //		Set set = new LinkedHashSet(); //삽입된 순서를 유지
-		Set set = new TreeSet(); //정렬된 상태를 유지
+//		Set set = new TreeSet(); //정렬된 상태를 유지
 		
 		set.add(30);
 		set.add(20);

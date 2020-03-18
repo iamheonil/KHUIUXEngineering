@@ -24,6 +24,7 @@ public class StringBufferEx {
 		System.out.println("length : " + sb.length());
 		
 		// 문자열의 Capacity(수용 능력, 채워넣을 수 있는 한계, 케파라고 부르기도 한다.)
+		System.out.println("케파케파");
 		System.out.println("Capacity : " + sb.capacity());
 		
 		// '\' 제어문자의 사용 
