@@ -30,9 +30,7 @@ public class Sender extends Thread {
 		char[] cbuf = new char[1024];
 
 		try {
-
 //				reader = new BufferedReader(new InputStreamReader(System.in));
-
 			try {
 				while (true) {
 					System.out.print("보낼 메세지 : ");
@@ -44,7 +42,6 @@ public class Sender extends Thread {
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-
 //		} catch (IOException e) {
 //			e.printStackTrace();
 		} finally {
