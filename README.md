@@ -18,4 +18,4 @@
 
 > ## 배웠던 주요 기능들
 
-<a href="https://iamheonil.github.io/study/" target="_blank"></a>
+<a href="https://iamheonil.github.io/study/" target="_blank">보러 가기</a>
