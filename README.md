@@ -18,4 +18,4 @@
 
 > ## 배웠던 주요 기능들
 
-자료구조 ... (보충필요)
+<a href="https://iamheonil.github.io/study/" target="_blank"></a>
